@@ -8,25 +8,28 @@ Var
 // Seção de Declarações das variáveis 
     idade: inteiro
     nome: caractere
+    bloqueio: inteiro
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
 
 
      escreval("CAPTURA E VALIDAÇÃO DE IDADE")
-     escreval("Inform seu nome:")
+     escreval("Informe seu nome:")
      leia(nome)
      escreval()
      
-     escreval("Imforme sua idade:")
+     escreval("Informe sua idade:")
      leia(idade)
      escreval()
-
+     bloqueio <- 18 - idade
 
     se idade < 18 entao
     escreval("Acesso negado. Usuário menor de idade!")
+    escreval("Volte em",bloqueio," anos.")
     senao
     escreval("Acesso liberado. Usuário maior de idade")
+
     fimse
 
 
