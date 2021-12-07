@@ -2,7 +2,7 @@ Algoritmo "calcular média"
 // Disciplina   : [Linguagem e Lógica de Programação]
 // Professor   : Rubem Oliota
 // Descrição   : Capturar nome e notas do aluno para calculo de média e informar a situacao.)
-// Autor(a)    : everton
+// Autor(a)    : everton DS
 // Data atual  : 07/12/2021
 Var
    // Seção de Declarações das variáveis
