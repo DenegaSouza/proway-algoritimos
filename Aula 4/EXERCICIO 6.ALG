@@ -33,24 +33,27 @@ Inicio
 
          escreval("Informe o SEGUNDO número do cálculo:")
          leia(numeroB)
-         limpatela
-
-         escolha(opcao)
-         caso 1
-            escreval("O resultado da SOMA",numeroA," +",numeroB," é igual a",numeroA+numeroB)
-         caso 2
-            escreval("O resultado da SUBTRAÇÃO",numeroA," -",numeroB," é igual a",numeroA-numeroB)
-         caso 3
-            escreval("O resultado da MULTIPLICAÇÃO",numeroA," x",numeroB," é igual a",numeroA*numeroB)
-         caso 4
-            escreval("O resultado da DIVISÃO",numeroA," /",numeroB," é igual a",numeroA/numeroB)
-         caso 0
-            escreval("PROGRAMA ENCERRADO PELO USUÁRIO")
-         outrocaso
-            escreval("OPÇÃO NÃO ENCONTRADA.TENTE NOVAMENTE")
-         fimescolha
-
       fimse
+      limpatela
+
+      escolha(opcao)
+      caso 1
+         escreval("O resultado da SOMA",numeroA," +",numeroB," é igual a",numeroA+numeroB)
+      caso 2
+         escreval("O resultado da SUBTRAÇÃO",numeroA," -",numeroB," é igual a",numeroA-numeroB)
+      caso 3
+         escreval("O resultado da MULTIPLICAÇÃO",numeroA," x",numeroB," é igual a",numeroA*numeroB)
+      caso 4
+         escreval("O resultado da DIVISÃO",numeroA," /",numeroB," é igual a",numeroA/numeroB)
+      caso 0
+         escreval("PROGRAMA ENCERRADO PELO USUÁRIO")
+
+      outrocaso
+         escreval("OPÇÃO NÃO ENCONTRADA.TENTE NOVAMENTE")
+         escreval()
+      fimescolha
+
+
 
    ate(opcao >=0) e (opcao <=4)
 
