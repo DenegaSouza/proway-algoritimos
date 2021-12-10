@@ -7,14 +7,14 @@ Algoritmo "EXERCICIO 4"
 Var
    // Seção de Declarações das variáveis
 
-   nome: caractere
-   nota1,nota2,nota3: real
-   media: real
+   nome,situacao: caractere
+   nota1,nota2,nota3,media: real
+
 
 Inicio
    // Seção de Comandos, procedimento, funções, operadores, etc...
 
-   escreval("PROGRAMA DE CÁLCULO DE MÉDIO DE ALUNO")
+   escreval("PROGRAMA DE CÁLCULO DE MÉDIA DE ALUNO")
    escreval("------------------------------------")
    escreval()
 
@@ -35,14 +35,15 @@ Inicio
    escreval()
 
    media <- (nota1 + nota2 + nota3) / 3
-   
+
    se media >= 7 entao
-   escreval("O aluno ",nome," foi APROVADO. Média final:",media)
-   
+      situacao <- "APROVADO"
    senao
-   escreval("O aluno ",nome," foi REPROVADO. Média final:",media)
-   
+      situacao <- "REPROVADO"
    fimse
+   escreval("O aluno ",nome," foi ",situacao,". Média final:",media)
+
+
 
 
 
