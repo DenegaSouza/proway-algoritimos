@@ -24,17 +24,16 @@ Inicio
    escreval("Informe a quantidade de alunos para calcular a média")
    leia(qtdAlunos)
 
+   para contador de 1 ate qtdAlunos passo 1 faca
 
-
-   repita
-      escreval("Informe o nome do",contador+1,"º aluno:")
+      escreval("Informe o nome do",contador,"º aluno:")
       leia(nome)
       escreval()
 
       soma <- 0      // iniciando soma para nao ter valores
       contador <- 0   //precisa ser zero pois no final do loop ele aumenta.
       repita
-         escreval("Informe a ",contador+1,"ª nota do aluno ",nome)
+         escreval("Informe a",contador+1,"ª nota do aluno ",nome)
          leia(nota)
 
          se nota <> 0 entao
@@ -57,12 +56,9 @@ Inicio
          fimse
          limpatela
          escreval("A média do aluno ",nome," é:",media," . Resultado: ",situacao)
+         escreval("-------------------------------------------------------------")
       fimse
-      escreval()
-      escreval("Iniciando o cálculo da média do",contador,"º aluno")
 
-
-
-ate(contador=qtdAlunos)
+   fimpara
 
 Fimalgoritmo
